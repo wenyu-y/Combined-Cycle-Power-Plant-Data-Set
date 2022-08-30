@@ -1,0 +1,11 @@
+# packages for this homework2
+import pandas as pd  # data processing
+import numpy as np   # N-DIMENSIONAL ARRAYS
+import seaborn as sns             # visualizations
+import matplotlib.pyplot as plt   # visualizations
+import statsmodels.api as sm      # fit linear regression models
+#!pip install yellowbrick
+from yellowbrick.regressor import CooksDistance  #cook distance to see the influence points
+from sklearn.preprocessing import PolynomialFeatures  #polynomial regression model
+from sklearn.model_selection import train_test_split #ramdomly split the data into train and test
+from sklearn.neighbors import KNeighborsRegressor      # KNN algorithm
